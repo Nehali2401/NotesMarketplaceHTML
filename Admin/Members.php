@@ -1,15 +1,13 @@
 <html lang="en">
 
 <head>
-
-      <!-- important meta tags -->
-   <!-- meta tags -->
+     <!-- meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
 
     <!-- Title -->
-    <title>Manage Administrator - Notes Marketplace</title>
+    <title>Member- Notes Marketplace</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -25,19 +23,15 @@
 
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
-
 </head>
 
 
 
     
+
     
-  
- 
-      <body>
-        
-    
-     <!--header--->       
+
+  <body>  
 
 
 
@@ -106,44 +100,30 @@
             </div>
         </div>
     </nav>
-   
         
-   <section id="manage-administrator-header">
+      
+        
+               <section id="members">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="manage-admin-heading">
-                        <p>Manage Administrator</p>
+                <div class="col-md-6">
+                    <div class="members-head">
+                        <p>Members</p>
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="add-administrator-btn" id="add-administrator">
-                                <a class="btn btn-general btn-purple" href="Add-Administrator.html" title="Add Administrator" role="button">Add Administrator</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="add-admin-search">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6 offset-md-3">
-                                        <input type="text" class="form-control" id="administrator-search" placeholder="Search">
-                                    </div>
-                                    <div class="col-sm-6 col-md-3">
-                                        <div class="administrator-search-btn" id="search-administrator-btn">
-                                            <a class="btn btn-general btn-purple" href="#" title="Search" role="button">Search</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-md-6 text-right">
+                    <div class="members-search">
+                        <input type="text" class="form-control" id="search-members" placeholder="Search">
+                        <div class="members-search-btn" id="members-btn">
+                            <a class="btn btn-general btn-purple" href="#" title="Search" role="button">Search</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-      
-        <section id="Genaeral-Table">
+        
+      <section id="Genaeral-Table">
         
             <div class="row">
                 <div class="col-md-12">
@@ -154,10 +134,13 @@
                                 <th scope="col">First Name</th>
                                 <th scope="col">Last Name</th>
                                 <th scope="col">Email</th>
-                                <th scope="col">Phone No.</th>
-                                <th scope="col">Date Added</th>
-                                <th scope="col">Active</th>
-                                <th scope="col">Action</th>
+                                <th scope="col">Joining Added</th>
+                                <th scope="col">Under Review Notes</th>
+                                <th scope="col">Published Notes</th>
+                                <th scope="col">Downloaded Notes</th>
+                                <th scope="col">Total Expenses</th>
+                                <th scope="col">Total Earnings</th>
+                                <th scope="col"></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -166,109 +149,134 @@
                                 <td>Khayati</td>
                                 <td>Patel</td>
                                 <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
-                                <td>04-01-2021, 12:10</td>
-                                <td>Yes</td>
+                                <td>08-01-2021, 12:10</td>
+                                <td><a href="NotesUnderReview.html">10</a></td>
+                                <td><a href="PublishedNotes.html">7</a></td>
+                                <td><a href="DownloadedNotes.html">24</a></td>
+                                <td><a href="DownloadedNotes.html">$210</a></td>
+                                <td>$177</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
-                                            <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
-                                        </div>
-                                        <div class="delete-admin-action">
-                                            <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
+                                        <div class="action-members dropleft">
+                                            <a id="members-action-dropdownMenu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="More" class="img-risponsive"></a>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="MemberDetails.html">View More Details</a>
+                                                <a class="dropdown-item" href="#">Deactivate</a>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
+                                <td>Rahul</td>
+                                <td>Shah</td>
                                 <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
-                                <td>04-01-2021, 12:10</td>
-                                <td>Yes</td>
+                                <td>07-01-2021, 02:10</td>
+                                <td><a href="NotesUnderReview.html">12</a></td>
+                                <td><a href="PublishedNotes.html">3</a></td>
+                                <td><a href="DownloadedNotes.html">19</a></td>
+                                <td><a href="DownloadedNotes.html">$20</a></td>
+                                <td>$177</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
-                                            <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
-                                        </div>
-                                        <div class="delete-admin-action">
-                                            <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
+                                        <div class="action-members dropleft">
+                                            <a id="members-action-dropdownMenu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="More" class="img-risponsive"></a>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="MemberDetails.html">View More Details</a>
+                                                <a class="dropdown-item" href="#">Deactivate</a>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Khayati</td>
+                                <td>Suman</td>
                                 <td>Patel</td>
                                 <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
-                                <td>04-01-2021, 12:10</td>
-                                <td>Yes</td>
+                                <td>06-01-2021, 11:54</td>
+                                <td><a href="NotesUnderReview.html">3</a></td>
+                                <td><a href="PublishedNotes.html">14</a></td>
+                                <td><a href="DownloadedNotes.html">12</a></td>
+                                <td><a href="DownloadedNotes.html">$310</a></td>
+                                <td>$122</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
-                                            <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
-                                        </div>
-                                        <div class="delete-admin-action">
-                                            <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
+                                        <div class="action-members dropleft">
+                                            <a id="members-action-dropdownMenu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="More" class="img-risponsive"></a>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="MemberDetails.html">View More Details</a>
+                                                <a class="dropdown-item" href="#">Deactivate</a>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
+                                <td>Raj</td>
+                                <td>Shah</td>
                                 <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
-                                <td>04-01-2021, 12:10</td>
-                                <td>Yes</td>
+                                <td>05-01-2021, 09:10</td>
+                                <td><a href="NotesUnderReview.html">10</a></td>
+                                <td><a href="PublishedNotes.html">17</a></td>
+                                <td><a href="DownloadedNotes.html">22</a></td>
+                                <td><a href="DownloadedNotes.html">$240</a></td>
+                                <td>$7</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
-                                            <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
-                                        </div>
-                                        <div class="delete-admin-action">
-                                            <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
+                                        <div class="action-members dropleft">
+                                            <a id="members-action-dropdownMenu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="More" class="img-risponsive"></a>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="MemberDetails.html">View More Details</a>
+                                                <a class="dropdown-item" href="#">Deactivate</a>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
+                                <td>Niya</td>
+                                <td>Trivedi</td>
                                 <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
-                                <td>04-01-2021, 12:10</td>
-                                <td>Yes</td>
+                                <td>04-01-2021, 12:07</td>
+                                <td><a href="NotesUnderReview.html">101</a></td>
+                                <td><a href="PublishedNotes.html">107</a></td>
+                                <td><a href="DownloadedNotes.html">202</a></td>
+                                <td><a href="DownloadedNotes.html">$2100</a></td>
+                                <td>$1007</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
-                                            <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
-                                        </div>
-                                        <div class="delete-admin-action">
-                                            <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
+                                        <div class="action-members dropleft">
+                                            <a id="members-action-dropdownMenu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/dots.png" alt="More" class="img-risponsive"></a>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="MemberDetails.html">View More Details</a>
+                                                <a class="dropdown-item" href="#">Deactivate</a>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>
             </div>
-       
+        
     </section>
 
-        
-        
-           <!--Footer-->
-        
-  <section id="dash-pagination">
+    <section id="dash-pagination">
         <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
                 <li class="page-item">
@@ -288,15 +296,17 @@
                 </li>
             </ul>
         </nav>
-    
     </section>
+                         
 
+  
   
   
 
    <!--Footer-->
         
-<footer>
+         
+   <footer>
         <hr>
         <div class="container">
             <div class="row" id="footer-content">
@@ -316,7 +326,6 @@
         </div>
     </footer>
     
-    
  <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
 
@@ -325,6 +334,7 @@
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    
 </body>
 
 

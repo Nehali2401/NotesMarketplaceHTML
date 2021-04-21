@@ -2,14 +2,14 @@
 
 <head>
 
-      <!-- important meta tags -->
+    <!-- important meta tags -->
    <!-- meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
 
     <!-- Title -->
-    <title>Manage Administrator - Notes Marketplace</title>
+    <title>Manage Category - Notes Marketplace</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -25,25 +25,18 @@
 
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
-
 </head>
 
 
 
-    
-    
-  
- 
-      <body>
-        
-    
-     <!--header--->       
+  <body>  
 
+  
 
 
  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="mynav">
         <div class="container">
-            <a class="navbar-brand" href="Dashboard.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
+            <a class="navbar-brand" href="Dashboard.php"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,27 +44,27 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarmenu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="Dashboard.html">Dashboard</a>
+                        <a class="nav-link" href="Dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" role="button" id="notesdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notes</a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="Notes-Under-Review.html">Notes Under Review</a>
-                            <a class="dropdown-item" href="Published-Notes.html">Published Notes</a>
-                            <a class="dropdown-item" href="Downloads-notes.html">Downloaded Notes</a>
-                            <a class="dropdown-item" href="Rejected-notes.html">Rejected Notes</a>
+                            <a class="dropdown-item" href="Notes-Under-Review.php">Notes Under Review</a>
+                            <a class="dropdown-item" href="Published-Notes.php">Published Notes</a>
+                            <a class="dropdown-item" href="Downloads-notes.php">Downloaded Notes</a>
+                            <a class="dropdown-item" href="Rejected-notes.php">Rejected Notes</a>
                         </div>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Members.html">Members</a>
+                        <a class="nav-link" href="Members.php">Members</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" role="button" id="reportsdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reports</a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="Spam-Reports.html">Spam Reports</a>
+                            <a class="dropdown-item" href="Spam-Reports.php">Spam Reports</a>
                         </div>
 
                     </li>
@@ -79,11 +72,11 @@
                         <a class="nav-link" href="#" role="button" id="settingsdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="Manage-Syatem-Configuration.html">Manage System Configuration</a>
-                            <a class="dropdown-item" href="Manage-Administrator.html">Manage Administrator</a>
-                            <a class="dropdown-item" href="Manage-Category.html">Manage Category</a>
-                            <a class="dropdown-item" href="Manage-Type.html">Manage Type</a>
-                            <a class="dropdown-item" href="Manage-Country.html">Manage Countries</a>
+                            <a class="dropdown-item" href="Manage-Syatem-Configuration.php">Manage System Configuration</a>
+                            <a class="dropdown-item" href="Manage-Administrator.php">Manage Administrator</a>
+                            <a class="dropdown-item" href="Manage-Category.php">Manage Category</a>
+                            <a class="dropdown-item" href="Manage-Type.php">Manage Type</a>
+                            <a class="dropdown-item" href="Manage-Country.php">Manage Countries</a>
                         </div>
 
                     </li>
@@ -91,46 +84,51 @@
                         <a class="nav-link" href="#" role="button" id="userdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/admin.png" alt="User Image" class="img-responsive rounded-circle" id="nav-user-img"></a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="My-Profile.html">Update Profile</a>
+                            <a class="dropdown-item" href="My-Profile.php">Update Profile</a>
                             <a class="dropdown-item" href="#">Change Password</a>
-                            <a class="dropdown-item" href="login.html" id="user-logout">Logout</a>
+                            <a class="dropdown-item" href="login.php" id="user-logout">Logout</a>
                         </div>
 
                     </li>
                     <li class="nav-item">
                         <div class="login-btn">
-                            <a class="nav-link btn btn-general btn-purple" href="login.html" id="home-login-btn" role="button">Logout</a>
+                            <a class="nav-link btn btn-general btn-purple" href="login.php" id="home-login-btn" role="button">Logout</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+      
+        
+     
+        
+        
    
         
-   <section id="manage-administrator-header">
+    <section id="manage-category-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="manage-admin-heading">
-                        <p>Manage Administrator</p>
+                    <div class="manage-category-heading">
+                        <p>Manage Category</p>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="add-administrator-btn" id="add-administrator">
-                                <a class="btn btn-general btn-purple" href="Add-Administrator.html" title="Add Administrator" role="button">Add Administrator</a>
+                            <div class="add-category-btn" id="add-category">
+                                <a class="btn btn-general btn-purple" href="Add-Category.php" title="Add Category" role="button">Add Category</a>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <div class="add-admin-search">
+                            <div class="manage-category-search">
                                 <div class="row">
                                     <div class="col-sm-6 col-md-6 offset-md-3">
-                                        <input type="text" class="form-control" id="administrator-search" placeholder="Search">
+                                        <input type="text" class="form-control" id="category-search" placeholder="Search">
                                     </div>
                                     <div class="col-sm-6 col-md-3">
-                                        <div class="administrator-search-btn" id="search-administrator-btn">
+                                        <div class="category-search-btn" id="search-category-btn">
                                             <a class="btn btn-general btn-purple" href="#" title="Search" role="button">Search</a>
                                         </div>
                                     </div>
@@ -141,9 +139,9 @@
                 </div>
             </div>
         </div>
-    </section>
-      
-        <section id="Genaeral-Table">
+    </section>        
+                        
+     <section id="Genaeral-Table">
         
             <div class="row">
                 <div class="col-md-12">
@@ -151,11 +149,10 @@
                         <thead>
                             <tr>
                                 <th scope="col">Sr no.</th>
-                                <th scope="col">First Name</th>
-                                <th scope="col">Last Name</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Phone No.</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Description</th>
                                 <th scope="col">Date Added</th>
+                                <th scope="col">Added By</th>
                                 <th scope="col">Active</th>
                                 <th scope="col">Action</th>
                             </tr>
@@ -163,18 +160,17 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
-                                <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
+                                <td>IT</td>
+                                <td>Lorem ipsum dolor sit amet</td>
                                 <td>04-01-2021, 12:10</td>
+                                <td>Khyati Patel</td>
                                 <td>Yes</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
+                                        <div class="edit-category">
                                             <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
                                         </div>
-                                        <div class="delete-admin-action">
+                                        <div class="delete-category-action">
                                             <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
                                         </div>
                                     </div>
@@ -182,18 +178,17 @@
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
-                                <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
+                                <td>Computer</td>
+                                <td>Lorem ipsum dolor sit amet</td>
                                 <td>04-01-2021, 12:10</td>
+                                <td>Khyati Patel</td>
                                 <td>Yes</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
+                                        <div class="edit-category">
                                             <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
                                         </div>
-                                        <div class="delete-admin-action">
+                                        <div class="delete-category-action">
                                             <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
                                         </div>
                                     </div>
@@ -201,18 +196,17 @@
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
-                                <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
+                                <td>Science</td>
+                                <td>Lorem ipsum dolor sit amet</td>
                                 <td>04-01-2021, 12:10</td>
+                                <td>Khyati Patel</td>
                                 <td>Yes</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
+                                        <div class="edit-category">
                                             <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
                                         </div>
-                                        <div class="delete-admin-action">
+                                        <div class="delete-category-action">
                                             <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
                                         </div>
                                     </div>
@@ -220,18 +214,17 @@
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
-                                <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
+                                <td>Computer</td>
+                                <td>Lorem ipsum dolor sit amet</td>
                                 <td>04-01-2021, 12:10</td>
+                                <td>Khyati Patel</td>
                                 <td>Yes</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
+                                        <div class="edit-category">
                                             <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
                                         </div>
-                                        <div class="delete-admin-action">
+                                        <div class="delete-category-action">
                                             <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
                                         </div>
                                     </div>
@@ -239,18 +232,17 @@
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td>Khayati</td>
-                                <td>Patel</td>
-                                <td>mymail123@gmail.com</td>
-                                <td>1234567890</td>
+                                <td>IT</td>
+                                <td>Lorem ipsum dolor sit amet</td>
                                 <td>04-01-2021, 12:10</td>
+                                <td>Khyati Patel</td>
                                 <td>Yes</td>
                                 <td>
                                     <div class="action-img">
-                                        <div class="edit-admin">
+                                        <div class="edit-category">
                                             <a href="#"><img src="images/Dashboard/edit.png" alt="Edit" class="img-risponsive"></a>
                                         </div>
-                                        <div class="delete-admin-action">
+                                        <div class="delete-category-action">
                                             <a href="#"><img src="images/Dashboard/delete.png" alt="Delete" class="img-risponsive"></a>
                                         </div>
                                     </div>
@@ -261,12 +253,15 @@
                     </table>
                 </div>
             </div>
-       
+      
     </section>
 
-        
-        
-           <!--Footer-->
+    
+  
+  
+  
+
+  
         
   <section id="dash-pagination">
         <nav aria-label="Page navigation">
@@ -288,15 +283,11 @@
                 </li>
             </ul>
         </nav>
-    
     </section>
-
-  
-  
-
-   <!--Footer-->
-        
-<footer>
+    
+    
+    <!--Footer-->
+    <footer>
         <hr>
         <div class="container">
             <div class="row" id="footer-content">
@@ -316,8 +307,7 @@
         </div>
     </footer>
     
-    
- <!-- jQuery -->
+  <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap JS-->
@@ -325,6 +315,7 @@
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+  
 </body>
 
 

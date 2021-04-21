@@ -43,7 +43,7 @@
 
  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="mynav">
         <div class="container">
-            <a class="navbar-brand" href="Dashboard.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
+            <a class="navbar-brand" href="Dashboard.php"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,21 +51,21 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarmenu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="Dashboard.html">Dashboard</a>
+                        <a class="nav-link" href="Dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" role="button" id="notesdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notes</a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="Notes-Under-Review.html">Notes Under Review</a>
-                            <a class="dropdown-item" href="Published-Notes.html">Published Notes</a>
-                            <a class="dropdown-item" href="Downloads-notes.html">Downloaded Notes</a>
-                            <a class="dropdown-item" href="Rejected-notes.html">Rejected Notes</a>
+                            <a class="dropdown-item" href="Notes-Under-Review.php">Notes Under Review</a>
+                            <a class="dropdown-item" href="Published-Notes.php">Published Notes</a>
+                            <a class="dropdown-item" href="Downloads-notes.php">Downloaded Notes</a>
+                            <a class="dropdown-item" href="Rejected-notes.php">Rejected Notes</a>
                         </div>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Members.html">Members</a>
+                        <a class="nav-link" href="Members.php">Members</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" role="button" id="reportsdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reports</a>
@@ -79,11 +79,11 @@
                         <a class="nav-link" href="#" role="button" id="settingsdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="Manage-Syatem-Configuration.html">Manage System Configuration</a>
-                            <a class="dropdown-item" href="Manage-Administrator.html">Manage Administrator</a>
-                            <a class="dropdown-item" href="Manage-Category.html">Manage Category</a>
-                            <a class="dropdown-item" href="Manage-Type.html">Manage Type</a>
-                            <a class="dropdown-item" href="Manage-Country.html">Manage Countries</a>
+                            <a class="dropdown-item" href="Manage-Syatem-Configuration.php">Manage System Configuration</a>
+                            <a class="dropdown-item" href="Manage-Administrator.php">Manage Administrator</a>
+                            <a class="dropdown-item" href="Manage-Category.php">Manage Category</a>
+                            <a class="dropdown-item" href="Manage-Type.php">Manage Type</a>
+                            <a class="dropdown-item" href="Manage-Country.php">Manage Countries</a>
                         </div>
 
                     </li>
@@ -91,15 +91,15 @@
                         <a class="nav-link" href="#" role="button" id="userdropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/admin.png" alt="User Image" class="img-responsive rounded-circle" id="nav-user-img"></a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="My-Profile.html">Update Profile</a>
+                            <a class="dropdown-item" href="My-Profile.php">Update Profile</a>
                             <a class="dropdown-item" href="#">Change Password</a>
-                            <a class="dropdown-item" href="login.html" id="user-logout">Logout</a>
+                            <a class="dropdown-item" href="login.php" id="user-logout">Logout</a>
                         </div>
 
                     </li>
                     <li class="nav-item">
                         <div class="login-btn">
-                            <a class="nav-link btn btn-general btn-purple" href="login.html" id="home-login-btn" role="button">Logout</a>
+                            <a class="nav-link btn btn-general btn-purple" href="login.php" id="home-login-btn" role="button">Logout</a>
                         </div>
                     </li>
                 </ul>
@@ -120,7 +120,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="add-administrator-btn" id="add-administrator">
-                                <a class="btn btn-general btn-purple" href="Add-Administrator.html" title="Add Administrator" role="button">Add Administrator</a>
+                                <a class="btn btn-general btn-purple" href="Add-Administrator.php" title="Add Administrator" role="button">Add Administrator</a>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6">
